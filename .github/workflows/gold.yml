@@ -23,4 +23,4 @@ jobs:
       - name: execute python script
         env:
           ACCOUNT_KEY: ${{ secrets.ACCOUNT_KEY }}
-        run: python gold.ipynb 
+        run: python db_gold.ipynb 
