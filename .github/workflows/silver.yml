@@ -23,4 +23,4 @@ jobs:
       - name: execute python script
         env:
           ACCOUNT_KEY: ${{ secrets.ACCOUNT_KEY }}
-        run: python silver.ipynb 
+        run: python db_silver.ipynb 
